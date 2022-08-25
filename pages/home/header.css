@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    max-width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    
+}
+
+header img {
+    margin: 2rem 4px;
+    border-radius: 50%;
+    border: 13px solid white;
+    z-index: 2;
+}
+
+#blue_circle_img {
+    border-radius: 50%;
+    margin-left: -243px;
+    margin-top: 29px;
+    z-index: 0;
+    width: 242px;
+    height: 242px;
+    background-color: rgb(98, 170, 199);
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -2rem;
+    z-index: 1;
+}
+
+header div h1 {
+    background-color: white;
+    border-bottom: 3px solid rgb(98, 170, 199);
+    color: rgb(20, 97, 128);
+    font-size: 2.5rem;
+    text-transform: uppercase; 
+    margin-top: 20px;
+    padding: 10px 0px 5px 35px;
+}
+
+header div p {
+    color: rgb(147, 182, 196);
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 37px;
+}

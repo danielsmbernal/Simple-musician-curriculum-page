@@ -1,0 +1,97 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    /* border-right: 1px solid blue; */
+    width: 236px;
+    height: auto;
+    padding-right: 26px;
+    border-right: 2px solid rgb(147, 182, 196);
+
+}
+
+
+/* <-- SKILLS --> */
+
+
+aside h1 {
+    background-color: rgb(35, 120, 153);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.levels {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+}
+
+.levels p {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.background_bar {
+    background-color:  rgb(191, 222, 235);
+    margin: 8px 0 15px 0;
+    width: 209px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#front_bar_voc, #front_bar_guit, #front_bar_ac_guit,
+#front_bar_bass, #front_bar_drums, #front_bar_orch, #front_bar_mus_prod {
+    background-color:  rgb(41, 86, 105);
+    margin: -25px 0 15px 0px;
+    height: 10px;
+    border-radius: 10px;
+    
+}
+
+#front_bar_voc {
+    width: 146px; /* 70% */
+}
+
+#front_bar_guit { /* 100% */
+    width: 209px;
+}
+
+#front_bar_ac_guit { /* 85% */
+    width: 177px;
+}
+
+#front_bar_bass { /* 60% */
+    width: 125px;
+}
+
+#front_bar_drums { /* 45% */
+    width: 94px;
+}
+
+#front_bar_orch {
+    width: 125px; /* 60% */
+}
+
+#front_bar_mus_prod { /* 80% */
+    width: 167px;
+}
+
+
+/* <-- SOCIAL MEDIA --> */
+
+
+.media_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media_links img {
+    width: 40px;
+}
