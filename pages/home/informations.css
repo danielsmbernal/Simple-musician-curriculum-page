@@ -3,7 +3,7 @@
 }
 
 .informations h1 {
-    color: rgb(20, 97, 128);    
+    color: rgb(41, 86, 105);    
     font-size: 1.5rem;
     text-transform: uppercase;
     padding-bottom: 5px;
@@ -11,7 +11,7 @@
     border-bottom: 2px solid rgb(147, 182, 196);
 }
 
-.informations p {
+.informations p, li {
     font-weight: bold;
     text-align: justify;
     text-justify: inter-word;
@@ -31,9 +31,8 @@
 /* <-- PROFILE --> */
 
 
-
-
 /* <-- WORK EXPERIENCE --> */
+
 
 .work_experience {
     display: flex;
@@ -44,9 +43,7 @@
 .work_experience h2 {
     color: rgb(45, 96, 117);
     width: 20%;
-
 }
-
 
 .time_line {
     display:flex;
@@ -66,7 +63,6 @@
     background-color: rgb(147, 182, 196);
     width:2px;
     height: 100%;
-
 }
 
 .work_experience p {
@@ -75,5 +71,31 @@
 }
 
 
+/* <-- EDUCATION --> */
 
 
+.container_education {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education_itens {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15% 15px 0;
+}
+
+.education_itens h2 {
+    color: rgb(42, 101, 126);
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.education_itens h3 {
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+.education_itens:nth-child(3n) {
+    margin: 0 22% 15px 0;
+}

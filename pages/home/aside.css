@@ -1,7 +1,6 @@
 aside {
     display: flex;
     flex-direction: column;
-    /* border-right: 1px solid blue; */
     width: 236px;
     height: auto;
     padding-right: 26px;
