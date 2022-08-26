@@ -1,0 +1,15 @@
+
+
+.videos {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+iframe {
+    width: 100%;
+    min-height: 260px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.5);
+}
+

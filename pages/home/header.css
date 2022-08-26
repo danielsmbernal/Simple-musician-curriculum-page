@@ -1,3 +1,5 @@
+
+
 header {
     display: flex;
     max-width: 1280px;
@@ -20,6 +22,7 @@ header img {
     width: 242px;
     height: 242px;
     background-color: rgb(98, 170, 199);
+    box-shadow: 3px 4px 3px rgba(31, 105, 134, 0.2) ;
 }
 
 header div {
@@ -32,12 +35,14 @@ header div {
 
 header div h1 {
     background-color: white;
-    border-bottom: 3px solid rgb(98, 170, 199);
     color: rgb(41, 86, 105);
     font-size: 2.5rem;
     text-transform: uppercase; 
     margin-top: 20px;
     padding: 10px 0px 5px 35px;
+    border-bottom: 3px solid rgb(98, 170, 199);
+    box-shadow: 0px 5px 2px -2px rgba(31, 105, 134, 0.2);
+
 }
 
 header div p {

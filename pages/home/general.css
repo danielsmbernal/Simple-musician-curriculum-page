@@ -1,7 +1,9 @@
+
+
 @import url(header.css);
 @import url(aside.css);
-@import url(main.css);
-@import url(informations.css);
+@import url(main_content.css);
+@import url(portfolio.css);
 
 * {
     font-family: sans-serif;
@@ -14,3 +16,15 @@ body {
     margin: 0 30px 30px 30px;
 }
 
+.container {
+    display: flex;
+    justify-content:start;
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 978px;
+    padding-left: 26px;
+}
