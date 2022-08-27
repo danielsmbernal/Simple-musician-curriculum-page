@@ -98,3 +98,21 @@ aside h1 {
 .media_links img {
     width: 40px;
 }
+
+
+/* <-- CONTACT --> */
+
+
+.contact_itens {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.contact label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
