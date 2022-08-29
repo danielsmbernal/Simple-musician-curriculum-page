@@ -1,0 +1,56 @@
+footer { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: rgb(41, 86, 105);
+ }
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 50px ;
+    /* text-align: center; */
+}
+
+.a_menu {
+    padding: 0 10px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.a_menu:hover {
+    padding: 21px 10px ;
+    background-color: white;
+    color: rgb(41, 86, 105);
+}
+
+#copyright {
+    color: white;
+    font-size: 0.7rem;
+    padding: 0 20px;
+}
+
+#img_whats {
+    width: 20px;
+    height: 20px;
+
+}
+
+#img_mail {
+    width: 20px;
+    height: 15px;
+    margin: 0 20px;
+
+}
+
