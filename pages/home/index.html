@@ -54,23 +54,8 @@
                 <span class="background_bar"></span>
                 <span id="front_bar_mus_prod"></span>
             </div>
-            <h1>social media</h1>
-            <div class="media_links">
-                <a href="https://www.instagram.com/danielsmbernal/" target="_blank">
-                    <img src="../../assets/Instagram-logo-blue.png" alt="">
-                </a>
-                <a href="https://www.youtube.com/channel/UCffwTOnMtcOnYjuKAmx3b3A" target="_blank">
-                    <img src="../../assets/youtube-logo-blue.png" alt="">
-                </a>
-                <a href="https://www.facebook.com/officialdanielbernal" target="_blank">
-                    <img src="../../assets/facebook-logo-blue.png" alt="">
-                </a>
-                <a href="https://www.linkedin.com/in/daniel-bernal-0a71b022a" target="_blank">
-                    <img src="../../assets/linkedin-logo-blue.png" alt="">
-                </a>
-            </div>
-            <h1>Contact</h1>
             <form class="contact" action="#">
+                <h1>Contact</h1>
                 <div class="contact_itens">
                     <label for="first_name">First name:</label>
                     <input type="text" id="first_name" name="first_name" placeholder="Ex: John">
@@ -88,15 +73,30 @@
                     <textarea id="message" name="message" rows="6" placeholder="Leave a message:"></textarea>
                 </div>
                 <div>
-                    <input type="submit" id="submit" value="Submit">
+                    <input type="submit" id="submit" value="Submit" onclick="">
                 </div>
+            </form>
+            <h1>social media</h1>
+            <div class="media_links">
+                <a href="https://www.instagram.com/danielsmbernal/" target="_blank">
+                    <img src="../../assets/Instagram-logo-blue.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UCffwTOnMtcOnYjuKAmx3b3A" target="_blank">
+                    <img src="../../assets/youtube-logo-blue.png" alt="">
+                </a>
+                <a href="https://www.facebook.com/officialdanielbernal" target="_blank">
+                    <img src="../../assets/facebook-logo-blue.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-bernal-0a71b022a" target="_blank">
+                    <img src="../../assets/linkedin-logo-blue.png" alt="">
+                </a>
+            </div>
 
 
                 
-            </form>
         </aside>
         <main>
-            <article class="profile">
+            <article class="profile" id="profile">
                 <h1 class="title_main">Profile</h1>
                 <p class="info_text">Daniel Bernal started playing guitar at the age of fourteen. It didn't take 
                 long for his passion for music to lead him to formalize his studies, 
@@ -107,7 +107,7 @@
                 in a self-taught way, to sing and play other instruments.</p>
                 <p></p>
             </article>
-            <section class="work">
+            <section class="work" id="work_exp">
                 <h1 class="title_main">Work experience</h1>
                 <div class="work_experience"> 
                     <h2>2003 - 2004</h2>
@@ -179,7 +179,7 @@
                     </p>
                 </div>         
             </section>
-            <section class="education">
+            <section class="education" id="education">
                 <h1 class="title_main">Education</h1>
                 <div class="container_education">
                     <div class="education_itens">
@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </section> 
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
                 <h1 class="title_main">Portfolio</h1>
                 <div class="videos">
                     <iframe src="https://www.youtube.com/embed/mP9KUah4Osk"
@@ -232,8 +232,42 @@
                             allowfullscreen>
                     </iframe>
                 </div>
-            </section>
+                <div class="more_videos"> 
+                    <h3>more videos<h3>
+                    <a href="https://www.youtube.com/channel/UCffwTOnMtcOnYjuKAmx3b3A" target="_blank"> 
+                        HERE
+                    </a>
+                </div>
+            </secti2on>
         </main>
     </div>
-</body>
+    <footer>
+        <p id="copyright">(C) 2022 Daniel Bernal</p>
+        <ul>
+            <li>
+                <a class="a_menu" href="#profile">Profile</a> 
+            </li>
+            <li>
+                <a class="a_menu" href="#work_exp">Work experience</a> 
+            </li>
+            <li>
+                <a class="a_menu" href="#education">Education</a> 
+            </li>
+            <li>
+                <a class="a_menu" href="#portfolio">Portfolio</a> 
+            </li>
+        </ul>
+        <div class="footer_icons">
+            <a href="#">
+                <img id="img_whats" src="../../assets/whats-logo-white.png" alt="whatsapp logo">
+            </a>
+            <a href="#">
+                <img id="img_mail" src="../../assets/gmail-logo-white.png" alt="">
+            </a>
+            
+            
+        </div>
+        
+    </footer>
+</body> 
 </html>
