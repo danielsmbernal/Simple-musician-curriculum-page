@@ -24,13 +24,12 @@ aside h1 {
     margin: 30px 0;
     border-radius: 5px;
     box-shadow: 0px 3px 4px 2px rgb(0, 0, 0, 0.2);
-
 }
 
 .levels {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 209px;
     height: auto;
 }
 
@@ -38,6 +37,11 @@ aside h1 {
     margin-top: 15px;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .background_bar {
@@ -54,7 +58,6 @@ aside h1 {
     margin: -25px 0 15px 0px;
     height: 10px;
     border-radius: 10px;
-    
 }
 
 #front_bar_voc {
