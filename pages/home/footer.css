@@ -6,6 +6,7 @@ footer {
     height: auto;
     margin: 0 auto 0 auto;
     background-color: rgb(41, 86, 105);
+    border-radius: 5px 5px 0 0;
  }
 
 footer ul {
@@ -18,7 +19,6 @@ footer li {
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px 50px ;
-    /* text-align: center; */
 }
 
 .a_menu {
@@ -44,13 +44,11 @@ footer li {
 #img_whats {
     width: 20px;
     height: 20px;
-
 }
 
 #img_mail {
     width: 20px;
-    height: 15px;
+    height: 18px;
     margin: 0 20px;
-
 }
 
